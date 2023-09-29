@@ -10,3 +10,4 @@ index 0c4fd1b..f9cbc4d 100644
 +  // UPB_ASSERT(UPB_ALIGN_MALLOC((uintptr_t)ret) == (uintptr_t)ret);
    UPB_ASSERT(UPB_ALIGN_MALLOC(size) == size);
    UPB_UNPOISON_MEMORY_REGION(ret, size);
+ 
